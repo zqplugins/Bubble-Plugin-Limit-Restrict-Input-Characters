@@ -1,0 +1,17 @@
+{
+    "categories": {
+        "0": "data (things)",
+        "1": "productivity",
+        "2": "technical",
+        "3": "artificial intelligence (AI)",
+        "4": "small business"
+    },
+    "data_tracked": false,
+    "demo_page": "https://limit-input-characters.bubbleapps.io/version-test",
+    "description": "Limit / Restrict the characters for an Input. E.g. disable: \"spaces\", \"capital letters\" or \"caseless characters\" etc.\n\nYou can also add custom characters to allow / disallow!\n\nTo receive special offers and important updates please visit: https://zeroqo.de/updates\n\n🔔 Get our 15 Top Plugins Bundle with 15 most popular plugins for only 20$/month.\nPlugins included in the Bundle:\n\n- Bubble Page to PDF converter\n- Stripe Marketplace Express\n- Air Calendar (Full Calendar 5.9.0)\n- AWS File uploader - Any size\n- Advanced Rich Text Editor\n- Mapbox Map\n- Phone Input Number with Formatting\n- Advanced Multi Uploader\n- Video Player\n- Dynamic Height & Width of Elements\n- Audio Recorder\n- Repeating Group to CSV\n- Print Pro\n- Advanced Audio Player\n- Easy File Downloader\n\nGet it here: https://zeroqode.com/bundle\n\nDEMO & DOCUMENTATION\nhttps://zeroqode.com/plugin/limit--restrict-input-characters-plugin-1728461598821x909836418480719200\n\nNEED HELP BUILDING A CUSTOM APPLICATION?\nhttps://dev.zeroqode.com\n\nSUPERCHARGE YOUR APP WITH ZEROQODE PLUGINS\nhttps://zeroqode.com/plugins\n\nQUESTIONS OR NEED HELP?\nhttps://forum.zeroqode.com",
+    "image": "//meta-q.cdn.bubble.io/f1704988436945x116137242676409570/Input%20Field.svg",
+    "license": "open_source",
+    "link": "https://zeroqode.com/plugins",
+    "name": "Limit / Restrict Input Characters",
+    "plugin_instructions": "If you need an example, take a look at the demo page!\n\n1 - Place the 'Limit/Restrict Input Characters' element on the page.\n\n2 - Give your Bubble input element an ID attribute.\n\nIf you don't see this the ID attribute option at the bottom of your input element properties, make sure you've enabled the HTML ID setting. You can do this under:\n\na. Settings\nb. General\nc. Scroll all the way down to 'Advanced Options'\nd. Check the box for → 'Expose the option to add an ID attribute to HTML elements'\n\n3 - Use the ID attribute inside the plugin ID list."
+}

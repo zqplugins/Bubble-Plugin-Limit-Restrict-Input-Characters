@@ -1,0 +1,140 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "Limit/Restrict Input Characters",
+    "fields": {
+        "AAD": {
+            "caption": "Input IDs",
+            "default_val": "input-1, input-2",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "input_ids",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Allow",
+            "doc": "Optional. Allow extra characters",
+            "editor": "DynamicValue",
+            "name": "allow",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Disallow",
+            "doc": "Optional. Disallow extra characters",
+            "editor": "DynamicValue",
+            "name": "disallow",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        },
+        "AAG": {
+            "caption": "Allow space",
+            "default_val": true,
+            "doc": "Allow the space character",
+            "editor": "DynamicValue",
+            "name": "allowspace",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAH": {
+            "caption": "Allow newline",
+            "default_val": true,
+            "doc": "Allow the newline character",
+            "editor": "DynamicValue",
+            "name": "allownewline",
+            "rank": 4,
+            "value": "boolean"
+        },
+        "AAI": {
+            "caption": "Allow numeric",
+            "default_val": true,
+            "doc": "Allow digits 0-9",
+            "editor": "DynamicValue",
+            "name": "allownumeric",
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAJ": {
+            "caption": "Allow upper",
+            "default_val": true,
+            "doc": "Allow upper case characters",
+            "editor": "DynamicValue",
+            "name": "allowupper",
+            "rank": 6,
+            "value": "boolean"
+        },
+        "AAK": {
+            "caption": "Allow lower",
+            "default_val": true,
+            "doc": "Allow lower case characters",
+            "editor": "DynamicValue",
+            "name": "allowlower",
+            "rank": 7,
+            "value": "boolean"
+        },
+        "AAL": {
+            "caption": "Allow caseless",
+            "default_val": true,
+            "doc": "Allow characters that do not have both upper & lower variants",
+            "editor": "DynamicValue",
+            "name": "allowcaseless",
+            "rank": 8,
+            "value": "boolean"
+        },
+        "AAM": {
+            "caption": "Allow latin",
+            "default_val": true,
+            "doc": "a-z A-Z",
+            "editor": "DynamicValue",
+            "name": "allowlatin",
+            "rank": 9,
+            "value": "boolean"
+        },
+        "AAN": {
+            "caption": "Allow other char sets",
+            "default_val": true,
+            "doc": "eg é, Á, Arabic, Chinese etc",
+            "editor": "DynamicValue",
+            "name": "allowothercharsets",
+            "rank": 10,
+            "value": "boolean"
+        },
+        "AAO": {
+            "caption": "Force upper",
+            "default_val": false,
+            "doc": "Convert lower case characters to upper case",
+            "editor": "DynamicValue",
+            "name": "forceupper",
+            "rank": 11,
+            "value": "boolean"
+        },
+        "AAP": {
+            "caption": "Force lower",
+            "default_val": false,
+            "doc": "Convert upper case characters to lower case",
+            "editor": "DynamicValue",
+            "name": "forcelower",
+            "rank": 12,
+            "value": "boolean"
+        },
+        "AAQ": {
+            "caption": "Max length",
+            "editor": "DynamicValue",
+            "name": "maxlength",
+            "optional": true,
+            "rank": 13,
+            "value": "number"
+        }
+    },
+    "icon": "ion-pinpoint",
+    "property_applications": {
+        "resizable": true
+    }
+}
